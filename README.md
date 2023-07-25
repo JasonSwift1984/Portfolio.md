@@ -1,82 +1,94 @@
-# Software Engineer Portfolio
+# Jason Swift - Software Engineer Portfolio
 
-This document contains the portfolio of Jason Swift and showcases what I have worked on as an Associate Software Engineer. The purpose of this porfolio is to highlight my contributions.
+Email: jasonrizzo02@aol.com
+
+## Introduction
+
+Hello, I'm Jason Swift, an experienced Associate Software Engineer with a passion for developing enterprise systems. I have been working at Rocket Mortgage since Spring 2020, where my primary focus has been providing support across AMP. With 3 years of experience in OpenEdge development and a strong drive to expand my knowledge in various tools and languages, I am eager to showcase my contributions and pursue new opportunities as a Software Engineer, Data Scientist, Data Engineer, or Data Analyst.
 
 ## Table of Contents
-  * [Introduction](#introduction)
-  * [Some Projects of Mine](#some-projects-of-mine)
-    * [Creating Custom Sonar Rules](#creating-custom-sonar-rules)
-    * [Main Message Definition Screen](#main-message-definition-screen)
-    * [Cascade Tool](#cascade-tool)
-    * [AppHub Validation](#appHub-validation)
-    * [Rocket Logic Toolbox](#rocket-logic-toolbox)
-    
-  * [Mentorship](#mentorship)
-  * [Opportunities](#opportunities)
-  * [Technical Excellence](#technical-excellence)
-    * [Master My Craft](#master-my-craft)
-    * [Problem Solving](#problem-solving)
-   
-# Introduction
 
-I started as an Associate Software Engineer at Rocket Mortgage in Spring of 2020. My role on the Business Apllication Engineering team then and today is to provide support across AMP. I have 3 years of experience developing with OpenEdge on enterprise systems, and I am continuously broadening my knowledge of OpenEdge and other various tools and languages.
+- [Introduction](#introduction)
+- [Some Projects I've Worked On](#some-projects-ive-worked-on)
+  - [Creating Custom Sonar Rules](#creating-custom-sonar-rules)
+  - [AppHub Validation](#apphub-validation)
+  - [Main Message Definition Screen](#main-message-definition-screen)
+  - [Cascade Tool](#cascade-tool)
+  - [Rocket Logic Toolbox](#rocket-logic-toolbox)
+- [Mentorship](#mentorship)
+- [Technical Excellence](#technical-excellence)
+  - [Mastering My Craft](#mastering-my-craft)
+  - [Problem Solving](#problem-solving)
+- [Opportunities](#opportunities)
 
-# Some Projects of Mine
+## Some Projects I've Worked On
 
-Below are some noteworthy projects I've worked on in my current role as an Associate Software Engineer.  
+### Creating Custom Sonar Rules
 
-## Creating Custom Sonar Rules
-  *  (https://git.rockfin.com/AMP/custom-sonar-rules/pull/182) 
-  *  (https://git.rockfin.com/AMP/custom-sonar-rules/pull/107)
+- [Pull Request 182](https://git.rockfin.com/AMP/custom-sonar-rules/pull/182)
+- [Pull Request 107](https://git.rockfin.com/AMP/custom-sonar-rules/pull/107)
 
-Here I wrote a custom Sonar rule to warn if any rules were not followed. These rules include checking to see if the code is reading in unencrypted secrets and ensuring buffer name follows our coding standards. Impact the unencrypted secrets has is to prevent data leakeage in the database, ensuring that we as a business do not open our selves up to possible data risks by having the data encrypted. The rule for buffer names follows our coding standards, ensuring our programs are readable with a uniformed buffer styles, which allows every team to understand the program much easier.  The technologies used were Java, Maven, Progress and GitHub.
+In this project, I developed custom Sonar rules to enforce coding standards. These rules include checking for unencrypted secrets in the code and ensuring buffer names follow our coding standards. By preventing data leakage in the database and maintaining uniform coding styles, these rules significantly improve data security and code readability. Technologies used: Java, Maven, Progress, and GitHub.
 
-## AppHub Validation
-  * Add Validation for Apphub
+### AppHub Validation
 
-    *  (https://git.rockfin.com/AMP/ampgate/pull/13926)
-    
-Here this code validates that each item in codeowners is correlated to an Business Criticality, Status and Source Control URL. Additionally this update requires that new files belong to a capability and is a hard gate. This impacts the business to ensure all new programs that are pushed have a codeowners with the related fields filled out. By doing so the business can easily identify who owns a program, and quickly contact that team with any questions if they occur. The technologies used were Python and Bash.
+- [Pull Request 13926](https://git.rockfin.com/AMP/ampgate/pull/13926)
 
-## Main Message Definition Screen 
-  * Add additional filter to Main Message Definition Screen 
+I implemented validation for AppHub, ensuring that each item in codeowners is properly correlated to Business Criticality, Status, and Source Control URL. This update also enforces that new files belong to a capability, acting as a hard gate. By doing so, we enhance program ownership identification and facilitate smoother communication within the team. Technologies used: Python and Bash.
 
-    *  [2848350] 
-    
-Here this additional filter impacts the business by allowing team members to filter down the selection on the screen. The impact this screen has on the business is that it saves the team member time when finding the correct field. My contribution to this was the creation of the screen to suit the needs Property Qualifer Teams Tonya Seymour. The technology used was Progress 4GL.
-    
-## Cascade Tool
-  *  [3088451]
-  *  [3054208]
-  *  [3068595]
+### Main Message Definition Screen
 
-This tool is used to update team members information across all loans updating permissions and security records. This impacts the business by allowing BA's to make mass updates without needing to be online after hours. The first screen I created was a mass status update which allowed the BA's to update name, email, fax and pager. Allowing our business to remnain current impacts the business by guarnatee the right information is available and easy to change. The next screen allows updates to occur during the day it loan amount is under 300, and overnight if its over. The impact this has is to ensure the update doesn't slow down the overall system during business hours. The third program I created was a program that sends out a email to the BA informing them of all user functions that were updated after the cascade was ran. This impacted the business by having it easier for the BA's to verify the updates have taken place. The technology used was Progress 4GL.
-       
-## Rocket Logic Toolbox
-  *  (https://git.rockfin.com/BusinessApplicationEngineering/RL-Toolbox-UI) 
-  *  (https://git.rockfin.com/BusinessApplicationEngineering/RL-Toolbox-BFF)
+- [Ticket 2848350]
 
-Here I have been currently working with my team connect the front end to the backend for Rocket Logicv Toolbox. The first story I have worked on is creating an API call to credit data orchestrator to get the verififed status. This impacts the business by allowing users to compare the value stored here with open amp to determine if the two are aligned. Another story I have worked on is SQS. SQS once called will resynce the verified staus of credit data orchestrator and Open Amp. The business impact of this story is easily sync Amp with SQS without having to manually delete and enter the information. The technology used so far are Typescript. 
-  
-# Mentorship
-* In the past year I've had the opportunity to be mentored by three team members, all with different experience levels and exposure to AMP. Each team memeber had over 20 years of experience in coding and was able to share what they have learned over the years in an easy to understand way. Things I have learned in my mentorship is how create object in Amp.      
-* I have shared the knowledge I gained in my mentorships with my team and others that are interested in programming. One such thing I shared with the team is how objects and classes are used in Amp.
+In this project, I added an additional filter to the Main Message Definition Screen, providing team members with easier navigation and time-saving options. This customization has been tailored to meet the needs of Property Qualifier Teams, specifically Tonya Seymour. Technologies used: Progress 4GL.
 
-# Opportunities
+### Cascade Tool
 
-* **Mentorship** - I enjoy learning new approaches to imporve my code and sharing my knowledge. Over the last two years I have been able to learn from my mentorships from the Performance Engineering Team. I was than able to share what I learn with my fellow team members.
+- [Ticket 3088451]
+- [Ticket 3054208]
+- [Ticket 3068595]
 
-# Technical Excellence
-## Master My Craft
-  **Training**  - I continuously look for ways to improve myself and add value to Rocket Mortgage.  Below are some of my recent training endeavours.
-  
-  * Attended Agile Training. Agile training taught me the improtance of breaking down projectsd into smaller pieces, so it can be easily iterated over.
-  * Team Learning Linkedin - Business Software And Tools. This Linkedin learning showcased tools for time managment for small projects.  
-  * Team Learning Linkedin - Data Science. This learning reviewed how to clean data and apply data models.
-  * Hack Week- Machine Learning with Don Ward. This training used Kaggle to learn machine learing for data science.
-  * Hackathon Project Posture Monitor - This project captures your image and alerts you if you have bad posture. My contribution to the project was to connect the camera to the application, allowing us to capture pictures. Technologies used for this project was Python.
-  * Sonar Rules With Ken Herring - This training provided further insight on how to create sonar rules using Visual Studio Code. 
-  * Amazon Sage Maker Canvas with Jordan LaFramboise - This training showcased how machine learning models are developed by non engineers. Knowing this allows me to bridge the knowledge gap of what tools the business side has.
+The Cascade Tool I developed enables efficient updates to team members' information across all loans, managing permissions and security records. The tool includes a mass status update screen, optimized for business hours, as well as a scheduled update screen for overnight processing. Additionally, the tool sends email notifications to BAs for updates after each cascade run. These features ensure data accuracy and streamline the updating process, benefiting the business and its users. Technologies used: Progress 4GL.
+
+### Rocket Logic Toolbox
+
+- [Frontend Repository](https://git.rockfin.com/BusinessApplicationEngineering/RL-Toolbox-UI)
+- [Backend Repository](https://git.rockfin.com/BusinessApplicationEngineering/RL-Toolbox-BFF)
+
+Currently, I am actively collaborating with my team to connect the frontend to the backend for Rocket Logic Toolbox. My contributions include creating API calls to credit data orchestrator and implementing SQS for data synchronization. These enhancements empower users to compare data between Rocket Logic Toolbox and Open AMP, ensuring alignment and facilitating seamless data updates. Technologies used: Typescript.
+
+## Mentorship
+
+In the past year, I've had the invaluable opportunity to be mentored by three team members, each with over 20 years of coding experience and diverse exposure to AMP. I have learned various techniques, including object creation in Amp, and shared this knowledge with my team and others interested in programming. I am eager to continue learning and contributing to the growth of my colleagues and the organization.
+
+## Technical Excellence
+
+### Mastering My Craft
+
+I am dedicated to continuous improvement and consistently seek opportunities to enhance my skills and add value to Rocket Mortgage. Some recent training endeavors include:
+
+- Agile Training: Emphasizing the importance of breaking down projects into manageable iterations.
+- Team Learning on LinkedIn: Business Software and Tools: Exploring time management tools for small projects.
+- Team Learning on LinkedIn: Data Science: Gaining insights into data cleaning and applying data models.
+- Hack Week - Machine Learning with Don Ward: Learning machine learning for data science using Kaggle.
+- Hackathon Project: Posture Monitor: Developing an application to monitor posture using Python and camera integration.
+- Sonar Rules with Ken Herring: Advancing expertise in creating Sonar rules using Visual Studio Code.
+- Amazon Sage Maker Canvas with Jordan LaFramboise: Understanding how non-engineers develop machine learning models, bridging the gap between business and engineering.
+- AWS Pipelines with Jordan LaFramboise: Gaining hands-on experience in building near serverless real-time data processing pipelines on AWS, expanding overall data knowledge.
+
+### Problem Solving
+
+In my role on the Business Application Engineering Team, I am frequently tasked with researching and finding solutions. For instance, during my research on MyVault, I identified and implemented a Sonar Rule to prevent potential data leakage, ensuring data security. I approach problem-solving with diligence and a focus on practical, effective solutions.
+
+## Opportunities
+
+Mentorship has been a rewarding experience for me. Learning from the Performance Engineering Team and sharing that knowledge with my fellow team members has enriched my understanding and enhanced the team's capabilities. I am enthusiastic about exploring new opportunities to collaborate, learn, and contribute to projects that align with my expertise and interests.
+
+
+
+
+
+
   * AWS Pipelines with Jordan LaFramboise - Provided hands-on experience in building near serverless real-time data processing pipelines on AWS, growing my overall knowledge base regarding data. 
   
 ## Problem Solving
