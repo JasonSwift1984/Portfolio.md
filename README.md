@@ -1,6 +1,6 @@
 # Software Engineer Portfolio
 
-This document contains the portfolio of Jason Swift and showcases what I have worked on as an Associate Software Engineer. The purpose of this porfolio is to highlight my contributions needed to make Software Engineer.
+This document contains the portfolio of Jason Swift and showcases what I have worked on as an Associate Software Engineer. The purpose of this porfolio is to highlight my contributions.
 
 ## Table of Contents
   * [Introduction](#introduction)
