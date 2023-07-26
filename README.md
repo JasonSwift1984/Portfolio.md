@@ -43,7 +43,8 @@ I implemented validation for AppHub, ensuring that each item in codeowners is pr
 In this project, I added an additional filter to the Main Message Definition Screen, providing team members with easier navigation and time-saving options. This customization has been tailored to meet the needs of Property Qualifier Teams, specifically Tonya Seymour. Technologies used: Progress 4GL.
 
 ### Cascade Tool
-![Untitled design (2)](https://github.com/JasonSwift1984/Portfolio.md/assets/54918229/2a2650ef-8816-4631-ab77-7e1617164531)
+![cascade](https://github.com/JasonSwift1984/Portfolio.md/assets/54918229/a376943f-18f6-4d92-af5a-592612b8234a)
+
 
 
 The Cascade Tool I developed enables efficient updates to team members' information across all loans, managing permissions and security records. The tool includes a mass status update screen, optimized for business hours, as well as a scheduled update screen for overnight processing. Additionally, the tool sends email notifications to BAs for updates after each cascade run. These features ensure data accuracy and streamline the updating process, benefiting the business and its users. Technologies used: Progress 4GL.
