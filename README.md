@@ -26,7 +26,8 @@ Hello, I'm Jason Swift, an experienced Associate Software Engineer with a passio
 ### Creating Custom Sonar Rules
 
 ![secrets p1](https://github.com/JasonSwift1984/Portfolio.md/assets/54918229/58461f08-74ac-4584-83f2-e425e36767d2)
-![Untitled design](https://github.com/JasonSwift1984/Portfolio.md/assets/54918229/5f34c736-2926-46d3-a639-03d97cb68a9d)
+![Untitled design (1)](https://github.com/JasonSwift1984/Portfolio.md/assets/54918229/431af7e2-d2ae-4ba5-ad33-86a4a7227fd6)
+
 
 
 
@@ -34,7 +35,6 @@ In this project, I developed custom Sonar rules to enforce coding standards. The
 
 ### AppHub Validation
 
-- [Pull Request 13926](https://git.rockfin.com/AMP/ampgate/pull/13926)
 
 I implemented validation for AppHub, ensuring that each item in codeowners is properly correlated to Business Criticality, Status, and Source Control URL. This update also enforces that new files belong to a capability, acting as a hard gate. By doing so, we enhance program ownership identification and facilitate smoother communication within the team. Technologies used: Python and Bash.
 
@@ -44,9 +44,6 @@ In this project, I added an additional filter to the Main Message Definition Scr
 
 ### Cascade Tool
 
-- [Ticket 3088451]
-- [Ticket 3054208]
-- [Ticket 3068595]
 
 The Cascade Tool I developed enables efficient updates to team members' information across all loans, managing permissions and security records. The tool includes a mass status update screen, optimized for business hours, as well as a scheduled update screen for overnight processing. Additionally, the tool sends email notifications to BAs for updates after each cascade run. These features ensure data accuracy and streamline the updating process, benefiting the business and its users. Technologies used: Progress 4GL.
 
