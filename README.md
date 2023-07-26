@@ -50,8 +50,7 @@ In this project, I added an additional filter to the Main Message Definition Scr
 The Cascade Tool I developed enables efficient updates to team members' information across all loans, managing permissions and security records. The tool includes a mass status update screen, optimized for business hours, as well as a scheduled update screen for overnight processing. Additionally, the tool sends email notifications to BAs for updates after each cascade run. These features ensure data accuracy and streamline the updating process, benefiting the business and its users. Technologies used: Progress 4GL.
 
 ### Rocket Logic Toolbox
-
-
+![cascade](https://github.com/JasonSwift1984/Portfolio.md/assets/54918229/82025e27-59f9-4148-a9af-73c4d4335455)
 
 Currently, I am actively collaborating with my team to connect the frontend to the backend for Rocket Logic Toolbox. My contributions include creating API calls to credit data orchestrator and implementing SQS for data synchronization. These enhancements empower users to compare data between Rocket Logic Toolbox and Open AMP, ensuring alignment and facilitating seamless data updates. Technologies used: Typescript.
 
