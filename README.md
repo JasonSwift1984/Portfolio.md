@@ -25,8 +25,10 @@ Hello, I'm Jason Swift, an experienced Associate Software Engineer with a passio
 
 ### Creating Custom Sonar Rules
 
-- [Pull Request 182](https://git.rockfin.com/AMP/custom-sonar-rules/pull/182)
-- [Pull Request 107](https://git.rockfin.com/AMP/custom-sonar-rules/pull/107)
+![secrets p1](https://github.com/JasonSwift1984/Portfolio.md/assets/54918229/58461f08-74ac-4584-83f2-e425e36767d2)
+![Untitled design](https://github.com/JasonSwift1984/Portfolio.md/assets/54918229/5f34c736-2926-46d3-a639-03d97cb68a9d)
+
+
 
 In this project, I developed custom Sonar rules to enforce coding standards. These rules include checking for unencrypted secrets in the code and ensuring buffer names follow our coding standards. By preventing data leakage in the database and maintaining uniform coding styles, these rules significantly improve data security and code readability. Technologies used: Java, Maven, Progress, and GitHub.
 
@@ -37,8 +39,6 @@ In this project, I developed custom Sonar rules to enforce coding standards. The
 I implemented validation for AppHub, ensuring that each item in codeowners is properly correlated to Business Criticality, Status, and Source Control URL. This update also enforces that new files belong to a capability, acting as a hard gate. By doing so, we enhance program ownership identification and facilitate smoother communication within the team. Technologies used: Python and Bash.
 
 ### Main Message Definition Screen
-
-- [Ticket 2848350]
 
 In this project, I added an additional filter to the Main Message Definition Screen, providing team members with easier navigation and time-saving options. This customization has been tailored to meet the needs of Property Qualifier Teams, specifically Tonya Seymour. Technologies used: Progress 4GL.
 
@@ -52,8 +52,7 @@ The Cascade Tool I developed enables efficient updates to team members' informat
 
 ### Rocket Logic Toolbox
 
-- [Frontend Repository](https://git.rockfin.com/BusinessApplicationEngineering/RL-Toolbox-UI)
-- [Backend Repository](https://git.rockfin.com/BusinessApplicationEngineering/RL-Toolbox-BFF)
+
 
 Currently, I am actively collaborating with my team to connect the frontend to the backend for Rocket Logic Toolbox. My contributions include creating API calls to credit data orchestrator and implementing SQS for data synchronization. These enhancements empower users to compare data between Rocket Logic Toolbox and Open AMP, ensuring alignment and facilitating seamless data updates. Technologies used: Typescript.
 
