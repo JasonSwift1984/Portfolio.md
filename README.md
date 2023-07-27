@@ -10,6 +10,9 @@ Hello, I'm Jason Swift, an experienced Associate Software Engineer with a passio
 
 - [Introduction](#introduction)
 - [Some Projects I've Worked On](#some-projects-ive-worked-on)
+  - [Automated Classification Model](#automated-classification-model)
+  - [Regression Analysis](#regression-analysis)
+  - [Wildfire Severity Prediction](#wildfire-severity-prediction)  
   - [Creating Custom Sonar Rules](#creating-custom-sonar-rules)
   - [AppHub Validation](#apphub-validation)
   - [Main Message Definition Screen](#main-message-definition-screen)
@@ -22,6 +25,27 @@ Hello, I'm Jason Swift, an experienced Associate Software Engineer with a passio
 - [Opportunities](#opportunities)
 
 ## Some Projects I've Worked On
+
+### Automated Classification Model
+  *  (https://github.com/JasonSwift1984/SchoolWork/blob/main/MachineLearningFinal%20(1).ipynb)
+
+
+
+In this project, I created an automated classification model for a wine dataset.  The automated approach streamlines the model selection process, saving time and effort in finding the best-performing classifier. The objective is to create an efficient classifier to predict the target variable 'y', representing wine categories, with high accuracy.Technologies used: Python's pandas, numpy, and scikit-learn libraries.
+
+### Regression Analysis
+  *  (https://github.com/JasonSwift1984/SchoolWork/blob/main/Data%20Visualization%20Milestone%203.ipynb)
+
+
+
+In this project, I used a regression analysis project for predicting precipitation (ppt_71_14) based on elevation (elev1). The project involves data loading, data visualization, data splitting, linear regression modeling, model evaluation, and performance comparison on both training and test datasets. Technologies used: Python's pandas, matplotlib, and sklearn.
+
+### Wildfire Severity Prediction
+  *  (https://github.com/JasonSwift1984/SchoolWork/blob/main/SKLearn%20and%20Matplotlib%20Milestone%204.ipynb)
+
+
+
+In this project, I used Decision Trees to predict wildfire severity. The project involves data loading, data exploration, data splitting, Decision Tree modeling, model evaluation, and visualization. The goal is to predict wildfire severity based on the Normalized Burn Ratio (dNBR) values.  Technologies used: Python's pandas, matplotlib, and sklearn.
 
 ### Creating Custom Sonar Rules
 
